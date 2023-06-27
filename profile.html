@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="navbar">
+            <div class="nav-left">
+                <a href="index.html"><img src="image/IMG_20230526_182745_417-removebg-preview.png" class="logo"></a>
+                <ul>
+                    <li><i class='bx bx-bell'></i> </li>
+                    <li><i class='bx bx-envelope'></i></li>
+                    <li><i class='bx bxl-youtube'></i></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search">
+                    <img src="image/IMG_20230526_182524_805-removebg-preview.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingMenutoggle()">
+                    <img src="image/IMG_20230526_182431_138.jpg">
+                </div>
+
+            </div>
+            <div class="setting-menu">
+
+                <div class="toggle">
+                    <div class="toggle-button" onclick="Animated()"></div>
+                </div>
+
+                <div class="profile-detail ">
+                    <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                    <div>
+                        <h3>John Nicholson</h3>
+                        <a href="">See your profile</a>
+                    </div>
+                </div>
+
+
+                <hr>
+                <div class="setting-feedback">
+                    <img src="image/IMG_20230526_182829_482-removebg-preview.png" alt="">
+                    <div>
+                        <h3>Give Feedback</h3>
+                        <a href="">Helps us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <div class="link-detail">
+                        <img src="image/IMG_20230526_182520_366-removebg-preview.png" alt="">
+                        <p> Setting & Privacy</p>
+                    </div>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+                <div class="setting-link">
+                    <div class="link-detail">
+                        <img src="image/IMG_20230526_182807_403-removebg-preview.png" alt="">
+                        <p> Help &support</p>
+                    </div>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+                <div class="setting-link">
+                    <div class="link-detail">
+                        <img src="image/IMG_20230526_182854_554-removebg-preview.png" alt="">
+                        <p> Display & Accessibility</p>
+                    </div>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+                <div class="setting-link">
+                    <div class="link-detail">
+                        <img src="image/IMG_20230526_182739_585-removebg-preview.png" alt="">
+                        <p> Logout</p>
+                    </div>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- -------------Profile-page----------------------- -->
+
+    <div class="profile-container">
+
+        <img src="image/IMG_20230526_182859_846.jpg" class="cover-image">
+
+
+        <div class="profile-detail-container">
+            <div class="profile-detail-page">
+                <div class="pd-left">
+                    <img src="image/IMG_20230526_182725_726.jpg" alt="">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 friends - Mutuals</p>
+                        <div class="pd-follower">
+                            <img src="image/IMG_20230526_182734_189.jpg" alt="">
+                            <img src="image/IMG_20230526_182731_732.jpg" alt="">
+                            <img src="image/IMG_20230526_182728_092.jpg" alt="">
+                            <img src="image/IMG_20230526_182725_726.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="pd-right">
+                    <button type="button"><i class='bx bxs-user-plus'></i>Friends</button>
+                    <button type="button"><i class='bx bxs-chat'></i>Message</button>
+                    <br>
+                    <a href=""><i class='bx bx-dots-horizontal-rounded'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-intro-post">
+            <div class="intro-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p>Belive in yourself and you can do <br>unbelelievable things.</p>
+                    <hr>
+                    <div class="intro-setting">
+                        <i class='bx bx-brush-alt'></i>
+                        <p>Director at 99 media ltd</p>
+
+                    </div>
+                    <div class="intro-setting">
+                        <i class='bx bxs-graduation'></i>
+                        <p>Studied MBA at Amity University</p>
+
+                    </div>
+                    <div class="intro-setting">
+                        <i class='bx bxs-graduation'></i>
+                        <p>Went to DPS Delhi</p>
+
+                    </div>
+                    <div class="intro-setting">
+                        <i class='bx bxs-home'></i>
+                        <p>Lives in Banglore, India</p>
+
+                    </div>
+                    <div class="intro-setting">
+                        <i class='bx bxs-map'></i>
+                        <p>From Banglore, India</p>
+
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photo</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-intro">
+                    <img src="image/IMG_20230526_182533_989.jpg" alt="">
+                    <img src="image/IMG_20230526_182457_934.jpg" alt="">
+                    <img src="image/IMG_20230526_182454_684.jpg" alt="">
+                    <img src="image/IMG_20230526_182451_893.jpg" alt="">
+                    <img src="image/IMG_20230526_182448_631.jpg" alt="">
+                    <img src="image/IMG_20230526_182444_431.jpg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10mutuals)</p>
+                    <div class="photo-intro">
+                    <img src="image/IMG_20230526_182734_189.jpg" alt="">
+                    <img src="image/IMG_20230526_182731_732.jpg" alt="">
+                    <img src="image/IMG_20230526_182728_092.jpg" alt="">
+                    <img src="image/IMG_20230526_182725_726.jpg" alt="">
+                    <img src="image/IMG_20230526_182706_370.jpg" alt="">
+                    <img src="image/IMG_20230526_182703_936.jpg" alt="">
+                    <img src="image/IMG_20230526_182700_979.jpg" alt="">
+                    <img src="image/IMG_20230526_182658_011.jpg" alt="">
+                    <img src="image/IMG_20230526_182654_234.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="profile">
+
+                    <div class="profile-detail ">
+                        <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                        <div>
+                            <h3>John Nicholson</h3>
+                            <p>Public <i class='bx bxs-down-arrow'></i></p>
+                        </div>
+                    </div>
+
+                    <div class="profile-content">
+                        <textarea rows="3" placeholder="What's on your mind John ?"></textarea>
+
+                        <div class="profile-icon">
+                            <a href=""><i class='bx bxs-video-plus'></i>Live Video</a>
+                            <a href=""><i class='bx bxs-camera'></i>Photo/Video</a>
+                            <a href=""><i class='bx bx-face'></i> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-menu">
+                        <div class="profile-detail ">
+                            <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                            <div>
+                                <h3>John Nicholson</h3>
+                                <p>June 24 2023, 13:40 pm</p>
+                            </div>
+
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <div class="post-descript">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, sequi fuga iste repudiandae
+                            quam
+                            laboriosam!</p>
+                        <img src="image/IMG_20230526_182851_279.jpg" alt="">
+                        <div class="post-iconbox">
+                            <div class="post-icon">
+                                <a href=""><i class='bx bxs-like'></i>120</a>
+                                <a href=""><i class='bx bxs-comment-detail'></i>45</a>
+                                <a href=""><i class='bx bxs-share'></i>20</a>
+                            </div>
+                            <div class="post-profileicon">
+                                <img src="image/IMG_20230526_182431_138.jpg" alt=""> <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-menu">
+                        <div class="profile-detail ">
+                            <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                            <div>
+                                <h3>John Nicholson</h3>
+                                <p>June 24 2023, 13:40 pm</p>
+                            </div>
+
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <div class="post-descript">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, sequi fuga iste repudiandae
+                            quam
+                            laboriosam!</p>
+                        <img src="image/IMG_20230526_182845_730.jpg" alt="">
+                        <div class="post-iconbox">
+                            <div class="post-icon">
+                                <a href=""><i class='bx bxs-like'></i>120</a>
+                                <a href=""><i class='bx bxs-comment-detail'></i>45</a>
+                                <a href=""><i class='bx bxs-share'></i>20</a>
+                            </div>
+                            <div class="post-profileicon">
+                                <img src="image/IMG_20230526_182431_138.jpg" alt=""> <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-menu">
+                        <div class="profile-detail ">
+                            <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                            <div>
+                                <h3>John Nicholson</h3>
+                                <p>June 24 2023, 13:40 pm</p>
+                            </div>
+
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <div class="post-descript">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, sequi fuga iste repudiandae
+                            quam
+                            laboriosam!</p>
+                        <img src="image/IMG_20230526_182847_968.jpg" alt="">
+                        <div class="post-iconbox">
+                            <div class="post-icon">
+                                <a href=""><i class='bx bxs-like'></i>120</a>
+                                <a href=""><i class='bx bxs-comment-detail'></i>45</a>
+                                <a href=""><i class='bx bxs-share'></i>20</a>
+                            </div>
+                            <div class="post-profileicon">
+                                <img src="image/IMG_20230526_182431_138.jpg" alt=""> <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-menu">
+                        <div class="profile-detail ">
+                            <img src="image/IMG_20230526_182431_138.jpg" alt="">
+                            <div>
+                                <h3>John Nicholson</h3>
+                                <p>June 24 2023, 13:40 pm</p>
+                            </div>
+
+                        </div>
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <div class="post-descript">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, sequi fuga iste repudiandae
+                            quam
+                            laboriosam!</p>
+                        <img src="image/IMG_20230526_182832_833.jpg" alt="">
+                        <div class="post-iconbox">
+                            <div class="post-icon">
+                                <a href=""><i class='bx bxs-like'></i>120</a>
+                                <a href=""><i class='bx bxs-comment-detail'></i>45</a>
+                                <a href=""><i class='bx bxs-share'></i>20</a>
+                            </div>
+                            <div class="post-profileicon">
+                                <img src="image/IMG_20230526_182431_138.jpg" alt=""> <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="button">Load</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright 2023 Harshit & Harshit </p>
+    </div>
+</body>
+
+</html>
+<script src="script.js">
+
+</script>
