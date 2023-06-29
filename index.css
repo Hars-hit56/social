@@ -757,4 +757,7 @@ width: 30px;
     flex-direction:column;
     width: 112%;
 }
+.post-icon a{
+margin-right: 23px;
+}
 }
